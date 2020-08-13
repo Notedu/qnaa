@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Notedu.QNAA.Models.User;
+using Notedu.QNAA.Models.V1.User;
 
-namespace Notedu.QNAA.Controllers
+namespace Notedu.QNAA.Controllers.V1
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("v1.0/[controller]")]
     public class UserController : ControllerBase
     {
 
